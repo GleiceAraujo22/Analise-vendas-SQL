@@ -1,0 +1,1 @@
+# Analisando Vendas com SQL
