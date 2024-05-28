@@ -17,7 +17,7 @@ Para ajudar a responder as perguntas de negócios, o SQL foi a única ferramenta
     10. Qual o percentual de clientes por Estado? 
     11. Qual o tempo médio de entrega da transportadora?
     12. Qual o tempo médio de postagem de um produto a partir do pagamento aprovado?
-    13. Qual a taxa de acurácia de entregas?
+    13. Qual a taxa de acurácia de entregas? 
     14. Quais os status de encomenda e sua porcentagem de participação em relação ao total de pedidos?
     15. Quais os dias da semana ocorrem mais e menos entregas?
     16. Quais os dias da semana ocorrem mais e menos compras? 
@@ -26,7 +26,9 @@ Para ajudar a responder as perguntas de negócios, o SQL foi a única ferramenta
     19. Qual foi a receita por ano?
     20. Qual foi a receita por mês?
     21. Qual o ticket médio de vendas?
-    22. Qual o ticket médio por vendedor? 
+    22. Qual o ticket médio por vendedor?  
+
+
 
   Para ajudar a explorar os dados e a responder a essas perguntas, os principais comandos e funções do SQL utilizadas foram: 
 
@@ -42,4 +44,21 @@ Para ajudar a responder as perguntas de negócios, o SQL foi a única ferramenta
 Além desses comandos e funções foram usados outros igualmente importantes para realização desta análise. 
 
 ## Fonte de Dados 
-Os dados utilizados foram retirados do Kaggle, o nome do dataset é [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) e está disponível no link.
+Os dados utilizados foram retirados do Kaggle, o nome do dataset é [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) e está disponível no link. 
+O dataset da Olist possui no total 8 tabelas e o schema pode ser visto abaixo:   
+
+![olist schema](imagens/olist_schema.png) 
+
+
+## Ferramentas Utilizadas
+Para este projeto foi utilizado o **SQLITE** como banco de dados e o **DBEAVER** para gerenciamento do banco. Saiba mais sobre download e documentação desses programas nos links abaixo. 
+* [Download SQLITE](https://www.sqlite.org/) e [SQLITE documentação](https://www.sqlite.org/docs.html)
+* [Download Dbeaver](https://dbeaver.io/download/) e [Dbeaver documentação](https://dbeaver.com/docs/dbeaver/)
+
+O Dbeaver é um software multiplataforma, e com ele é possível utilizar diversos bancos de dados de forma prática.  
+
+
+![Dbeaver](imagens/Animação_dbeaver.gif)
+
+  
+
