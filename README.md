@@ -1,6 +1,6 @@
 # Analisando Dados de Vendas com SQL - Uma Abordagem Direta com SQLite e Dbeaver  
 ## Objetivo e Resumo do Projeto
-Essa é uma análise de dados de vendas da Olist Store. Nela foi elaborada algumas possíveis perguntas de negócios com o objetivo de obter insights sobre os dados e demonstrar minhas habilidades utilizando o SQL. A partir desta análise, foi possível reconhecer os padrões de vendas, entregas e KPIs por exemplo. Mais detalhes podem ser encontrados no [meu artigo no Medium.](https://medium.com/@gleicearaujo638/analisando-dados-de-vendas-15d780d10be5) 
+Essa é uma análise de dados de vendas da Olist Store. Nela foi elaborada algumas possíveis perguntas de negócios com o objetivo de obter insights sobre os dados e demonstrar minhas habilidades utilizando o SQL. A partir desta análise, foi possível reconhecer os padrões de vendas, entregas e KPIs por exemplo. O projeto completo pode ser encontrado em [meu artigo no Medium.](https://medium.com/@gleicearaujo638/analisando-dados-de-vendas-15d780d10be5) 
 
 ### Perguntas de Negócios 
 Para ajudar a responder as perguntas de negócios, o SQL foi a única ferramenta utilizada neste primeiro momento. O SQL (Structured Query Language) é a linguagem padrão para lidar com bancos de dados e o conhecimento de algumas de suas principais funções é o que possibilita obter informações de grandes volumes de dados. Para essa análise foram elaboradas 22 perguntas, são elas:   
@@ -29,6 +29,27 @@ Para ajudar a responder as perguntas de negócios, o SQL foi a única ferramenta
     22. Qual o ticket médio por vendedor?  
 
 
+### Queries
+
+Qual a taxa de acurácia de entregas?  
+
+  ![taxa de acurácia entrega](imagens/acuracia_entrega.png)   
+
+Quais os dias da semana ocorrem mais e menos compras?  
+
+![dias de compras](imagens/dias_de_compras.png) 
+
+Quais os dias da semana ocorrem mais e menos entregas?  
+
+![dias de entrega](imagens/dias_entregas.png) 
+
+Qual o ticket médio de vendas? (base)
+
+![dias de entrega](imagens/ticket_medio_vendas.png)  
+
+Qual o ticket médio por vendedor?
+
+![dias de entrega](imagens/ticket_médio_vendedor.png) 
 
   Para ajudar a explorar os dados e a responder a essas perguntas, os principais comandos e funções do SQL utilizadas foram: 
 
@@ -55,10 +76,20 @@ Para este projeto foi utilizado o **SQLITE** como banco de dados e o **DBEAVER**
 * [Download SQLITE](https://www.sqlite.org/) e [SQLITE documentação](https://www.sqlite.org/docs.html)
 * [Download Dbeaver](https://dbeaver.io/download/) e [Dbeaver documentação](https://dbeaver.com/docs/dbeaver/)
 
-O Dbeaver é um software multiplataforma, e com ele é possível utilizar diversos bancos de dados de forma prática.  
+O Dbeaver é um software multiplataforma, e com ele é possível utilizar diversos bancos de dados de forma prática.   
 
+![Dbeaver](imagens/Animação_dbeaver.gif)   
 
-![Dbeaver](imagens/Animação_dbeaver.gif)
+## Veja Análise Completa 
+
+ + [Projeto Completo](https://medium.com/@gleicearaujo638/analisando-dados-de-vendas-15d780d10be5) 
+
+## Meus Contatos
+
+ + [LinkedIn](https://www.linkedin.com/in/gleicearaujo/) 
+  
+ + [Gmail](gleicearaujo638@gmail.com) 
+ 
 
   
 
